@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion "23.0.1"
+
+    defaultConfig {
+        applicationId "chwn.com.boohee.food"
+        minSdkVersion 14
+        targetSdkVersion 19
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:22.2.1'
+    compile files('libs/ActiveAndroid-3.1-adcddac4c58.jar')
+    compile files('libs/fastjson-1.2.5.jar')
+    compile files('libs/picasso-2.5.2.jar')
+    compile files('libs/volley-20150827.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+}

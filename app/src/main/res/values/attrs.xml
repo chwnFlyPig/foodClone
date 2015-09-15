@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MultiViewPager">
+        <attr name="android_maxHeight" format="integer" />
+        <attr name="android_maxWidth" format="integer" />
+        <attr name="matchChildWidth" format="reference" />
+    </declare-styleable>
+
+</resources>

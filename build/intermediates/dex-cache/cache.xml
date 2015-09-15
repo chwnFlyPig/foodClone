@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\codeSpace\foodTopics\app\libs\volley-20150827.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd78f91b951d8802d55773b993b93e37544b1b39">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\volley-20150827-74990f37564760663317a90d70521e82f0f47a27.jar" />
+    </item>
+    <item
+        jar="D:\codeSpace\foodTopics\app\libs\ActiveAndroid-3.1-adcddac4c58.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e550c03ed8bcfe3b9f97d8c5ce6e8ee305f3beed">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\ActiveAndroid-3.1-adcddac4c58-b62bab4c94c5ff0f5ba6ba5d992169eb722067d5.jar" />
+    </item>
+    <item
+        jar="E:\sdk_1\extras\android\m2repository\com\android\support\support-annotations\22.2.1\support-annotations-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.1-fb9704173f403517ed2129f9a76b1a708026e8ef.jar" />
+    </item>
+    <item
+        jar="D:\codeSpace\foodTopics\app\libs\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-aa08a427f1e722d734f0662a48089292c43dbcd2.jar" />
+    </item>
+    <item
+        jar="D:\codeSpace\foodTopics\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\classes-128afdc3d89042609b2498ce0b26c2c30a753401.jar" />
+    </item>
+    <item
+        jar="D:\codeSpace\foodTopics\app\libs\xUtils-2.6.14.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f10c51f3e0732fdeefe6e104279a58e275879b6c">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\xUtils-2.6.14-ce18b04336e1b996d51053e8f945c4c0583e43d6.jar" />
+    </item>
+    <item
+        jar="D:\codeSpace\foodTopics\app\libs\fastjson-1.2.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9f675e9a1b2bf1224183005752a9214226e8aa8e">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\fastjson-1.2.5-41eeeedef8c824293f029d5cf1dd32c6a185f67b.jar" />
+    </item>
+    <item
+        jar="D:\codeSpace\foodTopics\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.1\jars\libs\internal_impl-22.2.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="D:\codeSpace\foodTopics\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.1-c1eb12114e34151f0028ee0d30620cab25d2bd5c.jar" />
+    </item>
+
+</items>

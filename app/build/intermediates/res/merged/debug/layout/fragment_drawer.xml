@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_navigation_drawer"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/global_status_bar_height" >
+
+</RelativeLayout><!-- From: file:/D:/codeSpace/foodTopics/app/src/main/res/layout/fragment_drawer.xml -->

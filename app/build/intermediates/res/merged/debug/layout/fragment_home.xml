@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/view_swiperefresh"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/main_top_height" >
+
+            <ImageView
+                android:id="@+id/iv_bg"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/main_top_height"
+                android:scaleType="centerCrop" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <RelativeLayout
+            android:id="@+id/btn_search"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/global_margin_normal"
+            android:layout_marginLeft="@dimen/global_margin_normal"
+            android:layout_marginRight="@dimen/global_margin_normal"
+            android:background="@drawable/home_search_selector"
+            android:gravity="center" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:drawableLeft="@drawable/ic_search"
+                android:gravity="center"
+                android:text="@string/search_hit"
+                android:textColorHighlight="@color/global_gray_light"
+                android:textColorHint="@color/global_gray_light"
+                android:textSize="@dimen/global_font_normal" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_nav"
+            android:layout_width="@dimen/global_button_weight"
+            android:layout_height="@dimen/global_button_weight"
+            android:layout_marginLeft="@dimen/global_margin_small"
+            android:layout_marginTop="@dimen/main_navigation_margin_top"
+            android:background="@drawable/ic_menu" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0"
+        android:background="@color/global_background"
+        android:paddingTop="@dimen/main_topic_padding_top" >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/global_margin_normal"
+            android:textColor="@color/global_gray_dark"
+            android:textSize="@dimen/global_font_large" />
+
+        <TextView
+            android:id="@+id/tv_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/tv_title"
+            android:layout_below="@id/tv_title"
+            android:layout_marginBottom="@dimen/global_margin_normal"
+            android:layout_marginTop="@dimen/global_margin_small"
+            android:singleLine="true"
+            android:textColor="@color/global_gray_light"
+            android:textSize="@dimen/global_font_normal" />
+
+        <chwn.com.boohee.food.view.MultiViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/tv_sub_title"
+            android:layout_centerInParent="true"
+            app:matchChildWidth="@+id/fl_cover" />
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/codeSpace/foodTopics/app/src/main/res/layout/fragment_home.xml -->

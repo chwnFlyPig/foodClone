@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/home_search_pressed" />
+            <corners android:radius="@dimen/global_radius" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/common_white" />
+            <corners android:radius="@dimen/global_radius" />
+        </shape>
+    </item>
+</selector><!-- From: file:/D:/codeSpace/foodTopics/app/src/main/res/drawable/home_search_selector.xml -->

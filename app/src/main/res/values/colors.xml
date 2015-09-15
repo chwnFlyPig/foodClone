@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_white">@android:color/white</color>
+    <color name="global_gray_light">#ff999999</color>
+    <color name="global_background">#fff2f0eb</color>
+    <color name="global_gray_dark">#ff333333</color>
+    <color name="home_search_pressed">#ddeeeeee</color>
+    <color name="loading_bg">#b3000000</color>
+</resources>
