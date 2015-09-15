@@ -5,4 +5,4 @@
 2.主页面上方，向下拖动会切换不同主题图片；使用的控件是：android.support.v4.widget.DrawerLayout；
 3.主页面下方的gallery效果，是用Fragment+FragmentPagerAdapter实现的，亮点是每页是按圆形轨迹滑动出现的。
 
-!(http://raw.githubusercontent.com/chwnFlyPig/foodClone/master/introduce/116.gif)
+![效果图](https://raw.githubusercontent.com/chwnFlyPig/foodClone/master/introduce/116.gif)
